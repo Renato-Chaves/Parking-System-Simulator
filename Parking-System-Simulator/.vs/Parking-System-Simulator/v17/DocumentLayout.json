@@ -1,0 +1,107 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\rchav\\OneDrive\\Documentos\\GitHub\\Parking-System-Simulator\\Parking-System-Simulator\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF3DB17-808A-408D-AFDD-97892F0EA2CE}|Parking-System-Simulator\\Parking-System-Simulator.csproj|c:\\users\\rchav\\onedrive\\documentos\\github\\parking-system-simulator\\parking-system-simulator\\parking-system-simulator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0DF3DB17-808A-408D-AFDD-97892F0EA2CE}|Parking-System-Simulator\\Parking-System-Simulator.csproj|solutionrelative:parking-system-simulator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF3DB17-808A-408D-AFDD-97892F0EA2CE}|Parking-System-Simulator\\Parking-System-Simulator.csproj|c:\\users\\rchav\\onedrive\\documentos\\github\\parking-system-simulator\\parking-system-simulator\\parking-system-simulator\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{0DF3DB17-808A-408D-AFDD-97892F0EA2CE}|Parking-System-Simulator\\Parking-System-Simulator.csproj|solutionrelative:parking-system-simulator\\mainwindow.xaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF3DB17-808A-408D-AFDD-97892F0EA2CE}|Parking-System-Simulator\\Parking-System-Simulator.csproj|C:\\Users\\rchav\\OneDrive\\Documentos\\GitHub\\Parking-System-Simulator\\Parking-System-Simulator\\parking-system-simulator\\themes\\buttontheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0DF3DB17-808A-408D-AFDD-97892F0EA2CE}|Parking-System-Simulator\\Parking-System-Simulator.csproj|solutionrelative:parking-system-simulator\\themes\\buttontheme.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF3DB17-808A-408D-AFDD-97892F0EA2CE}|Parking-System-Simulator\\Parking-System-Simulator.csproj|C:\\Users\\rchav\\OneDrive\\Documentos\\GitHub\\Parking-System-Simulator\\Parking-System-Simulator\\parking-system-simulator\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0DF3DB17-808A-408D-AFDD-97892F0EA2CE}|Parking-System-Simulator\\Parking-System-Simulator.csproj|solutionrelative:parking-system-simulator\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0DF3DB17-808A-408D-AFDD-97892F0EA2CE}|Parking-System-Simulator\\Parking-System-Simulator.csproj|C:\\Users\\rchav\\OneDrive\\Documentos\\GitHub\\Parking-System-Simulator\\Parking-System-Simulator\\parking-system-simulator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0DF3DB17-808A-408D-AFDD-97892F0EA2CE}|Parking-System-Simulator\\Parking-System-Simulator.csproj|solutionrelative:parking-system-simulator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 233,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\rchav\\OneDrive\\Documentos\\GitHub\\Parking-System-Simulator\\Parking-System-Simulator\\Parking-System-Simulator\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Parking-System-Simulator\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\rchav\\OneDrive\\Documentos\\GitHub\\Parking-System-Simulator\\Parking-System-Simulator\\Parking-System-Simulator\\MainWindow.xaml",
+              "RelativeToolTip": "Parking-System-Simulator\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-17T14:49:15.408Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 167,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ButtonTheme.xaml",
+              "DocumentMoniker": "C:\\Users\\rchav\\OneDrive\\Documentos\\GitHub\\Parking-System-Simulator\\Parking-System-Simulator\\Parking-System-Simulator\\Themes\\ButtonTheme.xaml",
+              "RelativeDocumentMoniker": "Parking-System-Simulator\\Themes\\ButtonTheme.xaml",
+              "ToolTip": "C:\\Users\\rchav\\OneDrive\\Documentos\\GitHub\\Parking-System-Simulator\\Parking-System-Simulator\\Parking-System-Simulator\\Themes\\ButtonTheme.xaml",
+              "RelativeToolTip": "Parking-System-Simulator\\Themes\\ButtonTheme.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-23T15:06:28.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\rchav\\OneDrive\\Documentos\\GitHub\\Parking-System-Simulator\\Parking-System-Simulator\\Parking-System-Simulator\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Parking-System-Simulator\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\rchav\\OneDrive\\Documentos\\GitHub\\Parking-System-Simulator\\Parking-System-Simulator\\Parking-System-Simulator\\MainWindow.xaml",
+              "RelativeToolTip": "Parking-System-Simulator\\MainWindow.xaml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAqwC0AAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-23T14:29:08.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\rchav\\OneDrive\\Documentos\\GitHub\\Parking-System-Simulator\\Parking-System-Simulator\\Parking-System-Simulator\\App.xaml",
+              "RelativeDocumentMoniker": "Parking-System-Simulator\\App.xaml",
+              "ToolTip": "C:\\Users\\rchav\\OneDrive\\Documentos\\GitHub\\Parking-System-Simulator\\Parking-System-Simulator\\Parking-System-Simulator\\App.xaml",
+              "RelativeToolTip": "Parking-System-Simulator\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-23T14:45:20.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\rchav\\OneDrive\\Documentos\\GitHub\\Parking-System-Simulator\\Parking-System-Simulator\\Parking-System-Simulator\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "Parking-System-Simulator\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\rchav\\OneDrive\\Documentos\\GitHub\\Parking-System-Simulator\\Parking-System-Simulator\\Parking-System-Simulator\\MainWindow.xaml.cs",
+              "RelativeToolTip": "Parking-System-Simulator\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-17T14:49:14.611Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

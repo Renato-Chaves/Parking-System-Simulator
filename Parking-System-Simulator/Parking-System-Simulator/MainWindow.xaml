@@ -1,0 +1,353 @@
+﻿<Window x:Class="Parking_System_Simulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Parking_System_Simulator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="720" Width="1280">
+
+    <Border>
+        <Grid Background="#7E8285">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="900"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Image Source="Images/Lines.png" Stretch="Fill"/>
+            <Border Background="#000" Opacity=".0"/>
+            <TextBlock Text="12:03"
+                       Foreground="White"
+                       FontSize="50"
+                       Margin="10,0,0,0"
+                       FontWeight="Bold"/>
+
+
+            <Grid Grid.Column="1" Background="#272727">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="1*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="1*"/>
+                </Grid.RowDefinitions>
+                <Border BorderThickness="0, 0, 0, 1"
+                        Margin="20,0,20,0"
+                        BorderBrush="White">
+                    <TextBlock Text="Parking System Simulator"
+                           FontSize="24"
+                           FontWeight="Black"
+                           FontFamily="Open Sans"
+                           Foreground="White"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+                </Border>
+
+                <Border BorderThickness="0, 0, 0, 1"
+                        Margin="20,0,20,0"
+                        BorderBrush="White"
+                        Grid.Row="1">
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <Button
+                                Width="25" Height="50"
+                                Margin="10,10,10,0"
+                                Background="Transparent"
+                                Foreground="#223C46"
+                                BorderThickness="0">
+                                <TextBox Text="3"
+                                       Background="Transparent"
+                                       BorderThickness="0"
+                                       Foreground="#223C46"
+                                       FontFamily="Marlett"
+                                       FontWeight="Bold"
+                                       Margin="0,0,0,0"
+                                       IsHitTestVisible="False"
+                                       Padding="-20,-7,0,0"
+                                       MaxWidth="25" MaxHeight="50"
+                                       FontSize="70"/>
+                            </Button>
+                            <Button
+                                Width="20" Height="40"
+                                Margin="10,10,10,0"
+                                Background="Transparent"
+                                Foreground="#223C46"
+                                BorderThickness="0">
+                                <TextBox Text="3"
+                                       Background="Transparent"
+                                       BorderThickness="0"
+                                       Foreground="#223C46"
+                                       FontFamily="Marlett"
+                                       FontWeight="Bold"
+                                       Margin="0,0,0,0"
+                                       IsHitTestVisible="False"
+                                       Padding="-13,-4,0,0"
+                                       MaxWidth="25" MaxHeight="50"
+                                       FontSize="50"/>
+                            </Button>
+                            <Button Content="II"
+                                Width="40" Height="40"
+                                Style="{StaticResource CircleButton}"
+                                Background="#223C46"
+                                Foreground="#BED6D9"
+                                BorderThickness="0"
+                                FontWeight="Medium"
+                                FontSize="24"
+                                Padding="0,0,0,3"
+                                Margin="5,10,5,0"/>
+                            <Button
+                                Width="20" Height="40"
+                                Margin="10,10,10,0"
+                                Background="Transparent"
+                                Foreground="#223C46"
+                                BorderThickness="0">
+                                <TextBox Text="4"
+                                       Background="Transparent"
+                                       BorderThickness="0"
+                                       Foreground="#223C46"
+                                       FontFamily="Marlett"
+                                       FontWeight="Bold"
+                                       Margin="0,0,0,0"
+                                       IsHitTestVisible="False"
+                                       Padding="-20,-4,0,0"
+                                       MaxWidth="25" MaxHeight="50"
+                                       FontSize="50"/>
+                            </Button>
+                            <Button
+                                Width="25" Height="50"
+                                Margin="10,10,10,0"
+                                Background="Transparent"
+                                Foreground="#223C46"
+                                BorderThickness="0">
+                                <TextBox Text="4"
+                                       Background="Transparent"
+                                       BorderThickness="0"
+                                       Foreground="#223C46"
+                                       FontFamily="Marlett"
+                                       FontWeight="Bold"
+                                       Margin="0,0,0,0"
+                                       IsHitTestVisible="False"
+                                       Padding="-28,-7,0,0"
+                                       MaxWidth="25" MaxHeight="50"
+                                       FontSize="70"/>
+                            </Button>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                            <TextBox Text="-1h"
+                                     Width="45"
+                                     BorderThickness="0"
+                                     TextAlignment="Right"
+                                     Margin="0,0,0,10"
+                                     Background="Transparent"
+                                     Foreground="#BED6D9"
+                                     FontWeight="Normal"
+                                     FontSize="18"/>
+                            <TextBox Text="-1m"
+                                     Width="50"
+                                     BorderThickness="0"
+                                     TextAlignment="Center"
+                                     Background="Transparent"
+                                     Foreground="#BED6D9"
+                                     FontWeight="Normal"
+                                     FontSize="18"
+                                     Margin="10,0,0,10"/>
+                            <TextBox Text=""
+                                     Width="15"
+                                     BorderThickness="0"
+                                     TextAlignment="Center"
+                                     Background="Transparent"
+                                     Foreground="#BED6D9"
+                                     FontWeight="Normal"
+                                     FontSize="18"
+                                     Margin="10,0,0,10"/>
+                            <TextBox Text="+1m"
+                                     Width="50"
+                                     BorderThickness="0"
+                                     TextAlignment="Center"
+                                     Background="Transparent"
+                                     Foreground="#BED6D9"
+                                     FontWeight="Normal"
+                                     FontSize="18"
+                                     Margin="10,0,0,10"/>
+                            <TextBox Text="+1h"
+                                     Width="45"
+                                     BorderThickness="0"
+                                     TextAlignment="Left"
+                                     Background="Transparent"
+                                     Foreground="#BED6D9"
+                                     FontWeight="Normal"
+                                     FontSize="18"
+                                     Margin="10,0,0,10"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Border>
+
+                <Border BorderThickness="0, 0, 0, 1"
+                        Margin="20,0,20,0"
+                        BorderBrush="White"
+                        Grid.Row="2">
+                    <Button Content="Add Car"
+                        FontSize="24"
+                        FontWeight="Bold"
+                        FontFamily="Open Sans"
+                        Foreground="#BED6D9"
+                        Background="#223C46"
+                        BorderThickness="0"
+                        Margin="20"
+                        Height="48"
+                        Style="{StaticResource RoundButton}"
+                        Grid.Row="2"/>
+                </Border>
+
+                <Border BorderThickness="0, 0, 0, 1"
+                        Margin="20,0,20,0"
+                        BorderBrush="White"
+                        Grid.Row="3">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition Width="160"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel>
+                    <TextBlock Text="Selected Car"
+                                    Foreground="#BED6D9"
+                                    FontWeight="Bold"
+                                    Margin="0,20,0,0"
+                               TextAlignment="Center"
+                                    FontSize="22"/>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="1*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <StackPanel Grid.Column="0">
+                                    <TextBlock Text="Car Name:"
+                                           Foreground="#BED6D9"
+                                           FontWeight="Normal"
+                                           Margin="0,10,0,0"
+                                           FontSize="18"/>
+                                    <TextBlock Text="Car Color:"
+                                           Foreground="#BED6D9"
+                                           FontWeight="Normal"
+                                           Margin="0,10,0,0"
+                                           FontSize="18"/>
+                                    <TextBlock Text="Parking Lane:"
+                                           Foreground="#BED6D9"
+                                           FontWeight="Normal"
+                                           Margin="0,10,0,0"
+                                           FontSize="18"/>
+                                    <TextBlock Text="Plate:"
+                                           Foreground="#BED6D9"
+                                           FontWeight="Normal"
+                                           Margin="0,10,0,0"
+                                           FontSize="18"/>
+                                </StackPanel>
+                                <StackPanel Grid.Column="1">
+                                    <TextBlock Text="Audi"
+                                           Foreground="#BED6D9"
+                                           FontWeight="Normal"
+                                           Margin="0,10,0,0"
+                                           TextAlignment="Right"
+                                           FontSize="18"/>
+                                    <TextBlock Text="Red"
+                                           Foreground="#BED6D9"
+                                           FontWeight="Normal"
+                                           Margin="0,10,0,0"
+                                           TextAlignment="Right"
+                                           FontSize="18"/>
+                                    <TextBlock Text="A1"
+                                           Foreground="#BED6D9"
+                                           FontWeight="Normal"
+                                           Margin="0,10,0,0"
+                                           TextAlignment="Right"
+                                           FontSize="18"/>
+                                </StackPanel>
+                            </Grid>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="2" Margin="20,0,0,0">
+                        <Border BorderThickness="1"
+                                BorderBrush="White">
+                        <Image Width="140" Height="160"
+                               Source="Images/Audi.png" 
+                               Stretch="Uniform" 
+                               HorizontalAlignment="Left" 
+                               VerticalAlignment="Center"/>
+                        </Border>
+                        <TextBlock Text="EWK-8995"
+                                   Foreground="#BED6D9"
+                                   FontWeight="Bold"
+                                   TextAlignment="Center"
+                                   FontSize="18"/>
+                    </StackPanel>
+                    
+                </Grid>
+                </Border>
+
+                <Grid Grid.Row="4">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <StackPanel Grid.Column="0">
+                        <TextBlock Text="Entry Time:"
+                                       Foreground="#BED6D9"
+                                       FontWeight="Normal"
+                                       Margin="20,10,0,0"
+                                       TextAlignment="Left"
+                                       FontSize="18"/>
+                        <TextBlock Text="Elapsed Hours:"
+                                       Foreground="#BED6D9"
+                                       FontWeight="Normal"
+                                       Margin="20,10,0,0"
+                                       TextAlignment="Left"
+                                       FontSize="18"/>
+                        <TextBlock Text="Current Cost:"
+                                       Foreground="#BED6D9"
+                                       FontWeight="Normal"
+                                       Margin="20,10,0,0"
+                                       TextAlignment="Left"
+                                       FontSize="18"/>
+                    </StackPanel>
+                    <StackPanel Grid.Column="1" Margin="0,0,12,0">
+                        <TextBlock Text="13:00"
+                                   Foreground="#BED6D9"
+                                   FontWeight="Normal"
+                                   Margin="20,10,0,0"
+                                   TextAlignment="Right"
+                                   FontSize="18"/>
+                        <TextBlock Text="3h"
+                                   Foreground="#BED6D9"
+                                   FontWeight="Normal"
+                                   Margin="20,10,0,0"
+                                   TextAlignment="Right"
+                                   FontSize="18"/>
+                        <TextBlock Text="$3"
+                                   Foreground="#BED6D9"
+                                   FontWeight="Normal"
+                                   Margin="20,10,0,0"
+                                   TextAlignment="Right"
+                                   FontSize="18"/>
+                    </StackPanel>
+                </Grid>
+                
+                <Button Content="Open Receipt"
+                        FontSize="24"
+                        FontWeight="Bold"
+                        FontFamily="Open Sans"
+                        Foreground="#BED6D9"
+                        Background="#223C46"
+                        BorderThickness="0"
+                        Margin="20"
+                        Height="48"
+                        Style="{StaticResource RoundButton}"
+                        Grid.Row="5"/>
+
+            </Grid>
+        </Grid>
+    </Border>
+</Window>

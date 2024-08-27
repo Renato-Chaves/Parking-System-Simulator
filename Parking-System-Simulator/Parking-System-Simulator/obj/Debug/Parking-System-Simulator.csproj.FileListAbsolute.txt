@@ -1,0 +1,17 @@
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\bin\Debug\Parking-System-Simulator.exe.config
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\bin\Debug\Parking-System-Simulator.exe
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\bin\Debug\Parking-System-Simulator.pdb
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\Parking-System-Simulator.csproj.AssemblyReference.cache
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\MainWindow.g.cs
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\App.g.cs
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\Parking-System-Simulator_MarkupCompile.cache
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\Parking-System-Simulator_MarkupCompile.lref
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\MainWindow.baml
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\Parking-System-Simulator.g.resources
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\Parking_System_Simulator.Properties.Resources.resources
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\Parking-System-Simulator.csproj.GenerateResource.cache
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\Parking-System-Simulator.csproj.CoreCompileInputs.cache
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\Parking-System-Simulator.exe
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\Parking-System-Simulator.pdb
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\App.baml
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\Themes\ButtonTheme.baml
