@@ -63,6 +63,8 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Core\Car.cs" />
+    <Compile Include="Core\CarManager.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -99,10 +101,20 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\Audi.png" />
+    <Resource Include="Images\Cars\Audi.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Lines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Cars\Ambulance.png" />
+    <Resource Include="Images\Cars\Black_viper.png" />
+    <Resource Include="Images\Cars\Dodge.png" />
+    <Resource Include="Images\Cars\Mini_truck.png" />
+    <Resource Include="Images\Cars\Mini_van.png" />
+    <Resource Include="Images\Cars\Police.png" />
+    <Resource Include="Images\Cars\taxi.png" />
+    <Resource Include="Images\Cars\truck.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

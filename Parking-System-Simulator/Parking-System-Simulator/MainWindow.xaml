@@ -10,17 +10,190 @@
     <Border>
         <Grid Background="#7E8285">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="900"/>
+                <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Image Source="Images/Lines.png" Stretch="Fill"/>
-            <Border Background="#000" Opacity=".0"/>
+            <Border Background="#000" Opacity=".0" Panel.ZIndex="1"/> <!-- For future implementation --> 
             <TextBlock Text="12:03"
                        Foreground="White"
                        FontSize="50"
                        Margin="10,0,0,0"
-                       FontWeight="Bold"/>
+                       FontWeight="Bold"
+                       Panel.ZIndex="2"/>
 
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="1.21*"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                
+                <!--Upper Row-->
+                <Border Grid.Row="0"
+                        Grid.Column="0">
+                    <Image Width="Auto" Height="Auto"
+                           Name="A1Img"
+                            
+                           Stretch="Uniform" 
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center"
+                           Margin="-40,0,-40,0"/>
+                </Border>
+                <Border Grid.Row="0"
+                        Grid.Column="1">
+                    <Image Width="Auto" Height="Auto"
+                           Name="A2Img"
+                            
+                           Stretch="Uniform" 
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center"
+                           Margin="-40,0,-40,0"/>
+                </Border>
+                <Border Grid.Row="0"
+                        Grid.Column="2">
+                    <Image Width="Auto" Height="Auto"
+                           Name="A3Img"
+                            
+                           Stretch="Uniform" 
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center"
+                           Margin="-40,0,-40,0"/>
+                </Border>
+                <Border Grid.Row="0"
+                        Grid.Column="3">
+                    <Image Width="Auto" Height="Auto"
+                           Name="A4Img"
+                            
+                           Stretch="Uniform" 
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center"
+                           Margin="-40,0,-40,0"/>
+                </Border>
+                <Border Grid.Row="0"
+                        Grid.Column="4">
+                    <Image Width="Auto" Height="Auto"
+                           Name="A5Img"
+                            
+                           Stretch="Uniform" 
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center"
+                           Margin="-40,0,-40,0"/>
+                </Border>
+                <Border Grid.Row="0"
+                        Grid.Column="5">
+                    <Image Width="Auto" Height="Auto"
+                           Name="A6Img"
+                            
+                           Stretch="Uniform" 
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center"
+                           Margin="-40,0,-40,0"/>
+                </Border>
+
+                <!--Bottom Row-->
+                
+                <Border Grid.Row="2"
+                        Grid.Column="0">
+                    <Image Width="Auto" Height="Auto"
+                           Name="B1Img"
+                            
+                           Stretch="Uniform" 
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center"
+                           Margin="-40,0,-40,0"
+                           RenderTransformOrigin=".5, .52">
+                        <Image.RenderTransform>
+                            <ScaleTransform ScaleY="-1"/>
+                        </Image.RenderTransform>
+                    </Image>
+                </Border>
+                <Border Grid.Row="2"
+                        Grid.Column="1">
+                    <Image Width="Auto" Height="Auto"
+                           Name="B2Img"
+                            
+                           Stretch="Uniform" 
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center"
+                           Margin="-40,0,-40,0"
+                           RenderTransformOrigin=".5, .52">
+                        <Image.RenderTransform>
+                            <ScaleTransform ScaleY="-1"/>
+                        </Image.RenderTransform>
+                    </Image>
+                </Border>
+                <Border Grid.Row="2"
+                        Grid.Column="2">
+                    <Image Width="Auto" Height="Auto"
+                           Name="B3Img"
+                            
+                           Stretch="Uniform" 
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center"
+                           Margin="-40,0,-40,0"
+                           RenderTransformOrigin=".5, .52">
+                        <Image.RenderTransform>
+                            <ScaleTransform ScaleY="-1"/>
+                        </Image.RenderTransform>
+                    </Image>
+                </Border>
+                <Border Grid.Row="2"
+                        Grid.Column="3">
+                    <Image Width="Auto" Height="Auto"
+                           Name="B4Img"
+                            
+                           Stretch="Uniform" 
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center"
+                           Margin="-40,0,-40,0"
+                           RenderTransformOrigin=".5, .52">
+                        <Image.RenderTransform>
+                            <ScaleTransform ScaleY="-1"/>
+                        </Image.RenderTransform>
+                    </Image>
+                </Border>
+                <Border Grid.Row="2"
+                        Grid.Column="4">
+                    <Image Width="Auto" Height="Auto"
+                           Name="B5Img"
+                            
+                           Stretch="Uniform" 
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center"
+                           Margin="-40,0,-40,0"
+                           RenderTransformOrigin=".5, .52">
+                        <Image.RenderTransform>
+                            <ScaleTransform ScaleY="-1"/>
+                        </Image.RenderTransform>
+                    </Image>
+                </Border>
+                <Border Grid.Row="2"
+                        Grid.Column="5">
+                    <Image Width="Auto" Height="Auto"
+                           Name="B6Img"
+                            
+                           Stretch="Uniform" 
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center"
+                           Margin="-40,0,-40,0"
+                           RenderTransformOrigin=".5, .52">
+                        <Image.RenderTransform>
+                            <ScaleTransform ScaleY="-1"/>
+                        </Image.RenderTransform>
+                    </Image>
+                </Border>
+
+
+            </Grid>
 
             <Grid Grid.Column="1" Background="#272727">
                 <Grid.RowDefinitions>
@@ -187,6 +360,7 @@
                         BorderBrush="White"
                         Grid.Row="2">
                     <Button Content="Add Car"
+                            x:Name="AddCarBtn"
                         FontSize="24"
                         FontWeight="Bold"
                         FontFamily="Open Sans"
@@ -196,6 +370,7 @@
                         Margin="20"
                         Height="48"
                         Style="{StaticResource RoundButton}"
+                        Click="AddCarBtn_Click"
                         Grid.Row="2"/>
                 </Border>
 
@@ -246,23 +421,26 @@
                                 </StackPanel>
                                 <StackPanel Grid.Column="1">
                                     <TextBlock Text="Audi"
-                                           Foreground="#BED6D9"
-                                           FontWeight="Normal"
-                                           Margin="0,10,0,0"
-                                           TextAlignment="Right"
-                                           FontSize="18"/>
+                                               Name="carNameTB"
+                                               Foreground="#BED6D9"
+                                               FontWeight="Normal"
+                                               Margin="0,10,0,0"
+                                               TextAlignment="Right"
+                                               FontSize="18"/>
                                     <TextBlock Text="Red"
-                                           Foreground="#BED6D9"
-                                           FontWeight="Normal"
-                                           Margin="0,10,0,0"
-                                           TextAlignment="Right"
-                                           FontSize="18"/>
+                                               Name="carColorTB"
+                                               Foreground="#BED6D9"
+                                               FontWeight="Normal"
+                                               Margin="0,10,0,0"
+                                               TextAlignment="Right"
+                                               FontSize="18"/>
                                     <TextBlock Text="A1"
-                                           Foreground="#BED6D9"
-                                           FontWeight="Normal"
-                                           Margin="0,10,0,0"
-                                           TextAlignment="Right"
-                                           FontSize="18"/>
+                                               Name="carLaneTB"
+                                               Foreground="#BED6D9"
+                                               FontWeight="Normal"
+                                               Margin="0,10,0,0"
+                                               TextAlignment="Right"
+                                               FontSize="18"/>
                                 </StackPanel>
                             </Grid>
                     </StackPanel>
@@ -271,12 +449,14 @@
                         <Border BorderThickness="1"
                                 BorderBrush="White">
                         <Image Width="140" Height="160"
+                               Name="carImage"
                                Source="Images/Audi.png" 
                                Stretch="Uniform" 
                                HorizontalAlignment="Left" 
                                VerticalAlignment="Center"/>
                         </Border>
                         <TextBlock Text="EWK-8995"
+                                   Name="carPlateTB"
                                    Foreground="#BED6D9"
                                    FontWeight="Bold"
                                    TextAlignment="Center"
@@ -286,7 +466,7 @@
                 </Grid>
                 </Border>
 
-                <Grid Grid.Row="4">
+                <Grid Grid.Row="4" Margin="0,5,0,0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
                         <ColumnDefinition/>
@@ -315,6 +495,7 @@
                     </StackPanel>
                     <StackPanel Grid.Column="1" Margin="0,0,12,0">
                         <TextBlock Text="13:00"
+                                   Name="entryTimeTB"
                                    Foreground="#BED6D9"
                                    FontWeight="Normal"
                                    Margin="20,10,0,0"
@@ -334,7 +515,7 @@
                                    FontSize="18"/>
                     </StackPanel>
                 </Grid>
-                
+
                 <Button Content="Open Receipt"
                         FontSize="24"
                         FontWeight="Bold"
@@ -346,7 +527,6 @@
                         Height="48"
                         Style="{StaticResource RoundButton}"
                         Grid.Row="5"/>
-
             </Grid>
         </Grid>
     </Border>
