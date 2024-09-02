@@ -13,9 +13,9 @@ namespace Parking_System_Simulator.Core
         private int [] _carLane;
         private string _carPlate;
         private string _carImage;
-        private string _carEntryTime;
+        private DateTime _carEntryTime;
 
-        public Car(string carName, string carColor, int[] carLane, string carPlate, string carEntryTime, string carImage)
+        public Car(string carName, string carColor, int[] carLane, string carPlate, DateTime carEntryTime, string carImage)
         {
             _carName = carName;
             _carColor = carColor;
@@ -45,7 +45,7 @@ namespace Parking_System_Simulator.Core
             return _carPlate;
         }
 
-        public string GetEntryTime()
+        public DateTime GetEntryTime()
         {
             return _carEntryTime;
         }

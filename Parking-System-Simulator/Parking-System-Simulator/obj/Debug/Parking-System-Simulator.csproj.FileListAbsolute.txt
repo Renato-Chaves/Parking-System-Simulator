@@ -15,3 +15,7 @@ C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-Syste
 C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\Parking-System-Simulator.pdb
 C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\App.baml
 C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\Themes\ButtonTheme.baml
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\bin\Debug\Parking-System-Simulator.exe.manifest
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\bin\Debug\Parking-System-Simulator.application
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\Parking-System-Simulator.exe.manifest
+C:\Users\rchav\OneDrive\Documentos\GitHub\Parking-System-Simulator\Parking-System-Simulator\Parking-System-Simulator\obj\Debug\Parking-System-Simulator.application

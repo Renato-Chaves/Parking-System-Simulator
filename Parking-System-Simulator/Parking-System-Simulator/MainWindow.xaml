@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Parking_System_Simulator"
         mc:Ignorable="d"
-        Title="MainWindow" Height="720" Width="1280">
+        Title="MainWindow" Height="720" Width="1280" MinHeight="700" MinWidth="1220">
 
     <Border>
         <Grid Background="#7E8285">
@@ -14,12 +14,14 @@
                 <ColumnDefinition/>
             </Grid.ColumnDefinitions>
             <Image Source="Images/Lines.png" Stretch="Fill"/>
-            <Border Background="#000" Opacity=".0" Panel.ZIndex="1"/> <!-- For future implementation --> 
-            <TextBlock Text="12:03"
+            <Border Background="#000" Opacity=".0" Name="shadowLayer" Panel.ZIndex="1" IsHitTestVisible="False"/>  <!--For future implementation-->  
+            <TextBlock Text="12:00"
+                       Name="timeTB"
                        Foreground="White"
                        FontSize="50"
                        Margin="10,0,0,0"
                        FontWeight="Bold"
+                       IsHitTestVisible="False"
                        Panel.ZIndex="2"/>
 
             <Grid>
@@ -39,74 +41,102 @@
                 
                 <!--Upper Row-->
                 <Border Grid.Row="0"
+                        MouseDown="CarImg_OnMouseDown"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        BorderThickness="8"
                         Grid.Column="0">
                     <Image Width="Auto" Height="Auto"
                            Name="A1Img"
-                            
                            Stretch="Uniform" 
                            HorizontalAlignment="Center" 
                            VerticalAlignment="Center"
+                           IsHitTestVisible="False"
                            Margin="-40,0,-40,0"/>
                 </Border>
                 <Border Grid.Row="0"
+                        MouseDown="CarImg_OnMouseDown"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        BorderThickness="8"
                         Grid.Column="1">
                     <Image Width="Auto" Height="Auto"
                            Name="A2Img"
-                            
                            Stretch="Uniform" 
                            HorizontalAlignment="Center" 
                            VerticalAlignment="Center"
+                           IsHitTestVisible="False"
                            Margin="-40,0,-40,0"/>
                 </Border>
                 <Border Grid.Row="0"
+                        MouseDown="CarImg_OnMouseDown"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        BorderThickness="8"
                         Grid.Column="2">
                     <Image Width="Auto" Height="Auto"
                            Name="A3Img"
-                            
                            Stretch="Uniform" 
                            HorizontalAlignment="Center" 
                            VerticalAlignment="Center"
+                           IsHitTestVisible="False"
                            Margin="-40,0,-40,0"/>
                 </Border>
                 <Border Grid.Row="0"
+                        MouseDown="CarImg_OnMouseDown"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        BorderThickness="8"
                         Grid.Column="3">
                     <Image Width="Auto" Height="Auto"
                            Name="A4Img"
-                            
                            Stretch="Uniform" 
                            HorizontalAlignment="Center" 
                            VerticalAlignment="Center"
+                           IsHitTestVisible="False"
                            Margin="-40,0,-40,0"/>
                 </Border>
                 <Border Grid.Row="0"
+                        MouseDown="CarImg_OnMouseDown" 
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        BorderThickness="8"
                         Grid.Column="4">
                     <Image Width="Auto" Height="Auto"
                            Name="A5Img"
-                            
                            Stretch="Uniform" 
                            HorizontalAlignment="Center" 
                            VerticalAlignment="Center"
+                           IsHitTestVisible="False"
                            Margin="-40,0,-40,0"/>
                 </Border>
                 <Border Grid.Row="0"
+                        MouseDown="CarImg_OnMouseDown" 
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        BorderThickness="8"
                         Grid.Column="5">
                     <Image Width="Auto" Height="Auto"
                            Name="A6Img"
-                            
                            Stretch="Uniform" 
                            HorizontalAlignment="Center" 
                            VerticalAlignment="Center"
+                           IsHitTestVisible="False"
                            Margin="-40,0,-40,0"/>
                 </Border>
 
                 <!--Bottom Row-->
                 
                 <Border Grid.Row="2"
+                        MouseDown="CarImg_OnMouseDown"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        BorderThickness="8"
                         Grid.Column="0">
                     <Image Width="Auto" Height="Auto"
                            Name="B1Img"
-                            
                            Stretch="Uniform" 
+                           IsHitTestVisible="False"
                            HorizontalAlignment="Center" 
                            VerticalAlignment="Center"
                            Margin="-40,0,-40,0"
@@ -117,11 +147,15 @@
                     </Image>
                 </Border>
                 <Border Grid.Row="2"
+                        MouseDown="CarImg_OnMouseDown"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        BorderThickness="8"
                         Grid.Column="1">
                     <Image Width="Auto" Height="Auto"
                            Name="B2Img"
-                            
                            Stretch="Uniform" 
+                           IsHitTestVisible="False"
                            HorizontalAlignment="Center" 
                            VerticalAlignment="Center"
                            Margin="-40,0,-40,0"
@@ -132,11 +166,15 @@
                     </Image>
                 </Border>
                 <Border Grid.Row="2"
+                        MouseDown="CarImg_OnMouseDown"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        BorderThickness="8"
                         Grid.Column="2">
                     <Image Width="Auto" Height="Auto"
                            Name="B3Img"
-                            
                            Stretch="Uniform" 
+                           IsHitTestVisible="False"
                            HorizontalAlignment="Center" 
                            VerticalAlignment="Center"
                            Margin="-40,0,-40,0"
@@ -147,11 +185,15 @@
                     </Image>
                 </Border>
                 <Border Grid.Row="2"
+                        MouseDown="CarImg_OnMouseDown"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        BorderThickness="8"
                         Grid.Column="3">
                     <Image Width="Auto" Height="Auto"
                            Name="B4Img"
-                            
                            Stretch="Uniform" 
+                           IsHitTestVisible="False"
                            HorizontalAlignment="Center" 
                            VerticalAlignment="Center"
                            Margin="-40,0,-40,0"
@@ -162,11 +204,15 @@
                     </Image>
                 </Border>
                 <Border Grid.Row="2"
+                        MouseDown="CarImg_OnMouseDown"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        BorderThickness="8"
                         Grid.Column="4">
                     <Image Width="Auto" Height="Auto"
                            Name="B5Img"
-                            
                            Stretch="Uniform" 
+                           IsHitTestVisible="False"
                            HorizontalAlignment="Center" 
                            VerticalAlignment="Center"
                            Margin="-40,0,-40,0"
@@ -177,11 +223,15 @@
                     </Image>
                 </Border>
                 <Border Grid.Row="2"
+                        MouseDown="CarImg_OnMouseDown"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                        BorderThickness="8"
                         Grid.Column="5">
                     <Image Width="Auto" Height="Auto"
                            Name="B6Img"
-                            
                            Stretch="Uniform" 
+                           IsHitTestVisible="False"
                            HorizontalAlignment="Center" 
                            VerticalAlignment="Center"
                            Margin="-40,0,-40,0"
@@ -226,39 +276,44 @@
                                 Width="25" Height="50"
                                 Margin="10,10,10,0"
                                 Background="Transparent"
+                                Name="subHourBtn"
+                                Click="TimeBtn_Click"
                                 Foreground="#223C46"
                                 BorderThickness="0">
                                 <TextBox Text="3"
-                                       Background="Transparent"
-                                       BorderThickness="0"
-                                       Foreground="#223C46"
-                                       FontFamily="Marlett"
-                                       FontWeight="Bold"
-                                       Margin="0,0,0,0"
-                                       IsHitTestVisible="False"
-                                       Padding="-20,-7,0,0"
-                                       MaxWidth="25" MaxHeight="50"
-                                       FontSize="70"/>
+                                         Background="Transparent"
+                                         BorderThickness="0"
+                                         Foreground="#223C46"
+                                         FontFamily="Marlett"
+                                         FontWeight="Bold"
+                                         Margin="0,0,0,0"
+                                         IsHitTestVisible="False"
+                                         Padding="-20,-7,0,0"
+                                         MaxWidth="25" MaxHeight="50"
+                                         FontSize="70"/>
                             </Button>
                             <Button
                                 Width="20" Height="40"
                                 Margin="10,10,10,0"
                                 Background="Transparent"
                                 Foreground="#223C46"
+                                Name="subMinuteBtn"
+                                Click="TimeBtn_Click"
                                 BorderThickness="0">
                                 <TextBox Text="3"
-                                       Background="Transparent"
-                                       BorderThickness="0"
-                                       Foreground="#223C46"
-                                       FontFamily="Marlett"
-                                       FontWeight="Bold"
-                                       Margin="0,0,0,0"
-                                       IsHitTestVisible="False"
-                                       Padding="-13,-4,0,0"
-                                       MaxWidth="25" MaxHeight="50"
-                                       FontSize="50"/>
+                                         
+                                         Background="Transparent"
+                                         BorderThickness="0"
+                                         Foreground="#223C46"
+                                         FontFamily="Marlett"
+                                         FontWeight="Bold"
+                                         Margin="0,0,0,0"
+                                         IsHitTestVisible="False"
+                                         Padding="-13,-4,0,0"
+                                         MaxWidth="25" MaxHeight="50"
+                                         FontSize="50"/>
                             </Button>
-                            <Button Content="II"
+                            <Button Content="🕑"
                                 Width="40" Height="40"
                                 Style="{StaticResource CircleButton}"
                                 Background="#223C46"
@@ -273,36 +328,40 @@
                                 Margin="10,10,10,0"
                                 Background="Transparent"
                                 Foreground="#223C46"
+                                Name="addMinuteBtn"
+                                Click="TimeBtn_Click"
                                 BorderThickness="0">
                                 <TextBox Text="4"
-                                       Background="Transparent"
-                                       BorderThickness="0"
-                                       Foreground="#223C46"
-                                       FontFamily="Marlett"
-                                       FontWeight="Bold"
-                                       Margin="0,0,0,0"
-                                       IsHitTestVisible="False"
-                                       Padding="-20,-4,0,0"
-                                       MaxWidth="25" MaxHeight="50"
-                                       FontSize="50"/>
+                                         Background="Transparent"
+                                         BorderThickness="0"
+                                         Foreground="#223C46"
+                                         FontFamily="Marlett"
+                                         FontWeight="Bold"
+                                         Margin="0,0,0,0"
+                                         IsHitTestVisible="False"
+                                         Padding="-20,-4,0,0"
+                                         MaxWidth="25" MaxHeight="50"
+                                         FontSize="50"/>
                             </Button>
                             <Button
                                 Width="25" Height="50"
                                 Margin="10,10,10,0"
                                 Background="Transparent"
                                 Foreground="#223C46"
+                                Name="addHourBtn"
+                                Click="TimeBtn_Click"
                                 BorderThickness="0">
                                 <TextBox Text="4"
-                                       Background="Transparent"
-                                       BorderThickness="0"
-                                       Foreground="#223C46"
-                                       FontFamily="Marlett"
-                                       FontWeight="Bold"
-                                       Margin="0,0,0,0"
-                                       IsHitTestVisible="False"
-                                       Padding="-28,-7,0,0"
-                                       MaxWidth="25" MaxHeight="50"
-                                       FontSize="70"/>
+                                         Background="Transparent"
+                                         BorderThickness="0"
+                                         Foreground="#223C46"
+                                         FontFamily="Marlett"
+                                         FontWeight="Bold"
+                                         Margin="0,0,0,0"
+                                         IsHitTestVisible="False"
+                                         Padding="-28,-7,0,0"
+                                         MaxWidth="25" MaxHeight="50"
+                                         FontSize="70"/>
                             </Button>
                         </StackPanel>
                         <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
@@ -315,7 +374,7 @@
                                      Foreground="#BED6D9"
                                      FontWeight="Normal"
                                      FontSize="18"/>
-                            <TextBox Text="-1m"
+                            <TextBox Text="-10m"
                                      Width="50"
                                      BorderThickness="0"
                                      TextAlignment="Center"
@@ -333,7 +392,7 @@
                                      FontWeight="Normal"
                                      FontSize="18"
                                      Margin="10,0,0,10"/>
-                            <TextBox Text="+1m"
+                            <TextBox Text="+10m"
                                      Width="50"
                                      BorderThickness="0"
                                      TextAlignment="Center"
@@ -385,7 +444,8 @@
                     </Grid.ColumnDefinitions>
 
                     <StackPanel>
-                    <TextBlock Text="Selected Car"
+                    <TextBlock Text="Select a Car..."
+                               Name="selectCarTitle"
                                     Foreground="#BED6D9"
                                     FontWeight="Bold"
                                     Margin="0,20,0,0"
@@ -420,21 +480,21 @@
                                            FontSize="18"/>
                                 </StackPanel>
                                 <StackPanel Grid.Column="1">
-                                    <TextBlock Text="Audi"
+                                    <TextBlock Text="..."
                                                Name="carNameTB"
                                                Foreground="#BED6D9"
                                                FontWeight="Normal"
                                                Margin="0,10,0,0"
                                                TextAlignment="Right"
                                                FontSize="18"/>
-                                    <TextBlock Text="Red"
+                                    <TextBlock Text="..."
                                                Name="carColorTB"
                                                Foreground="#BED6D9"
                                                FontWeight="Normal"
                                                Margin="0,10,0,0"
                                                TextAlignment="Right"
                                                FontSize="18"/>
-                                    <TextBlock Text="A1"
+                                    <TextBlock Text="..."
                                                Name="carLaneTB"
                                                Foreground="#BED6D9"
                                                FontWeight="Normal"
@@ -450,12 +510,13 @@
                                 BorderBrush="White">
                         <Image Width="140" Height="160"
                                Name="carImage"
+                               MouseDown="CarImg_OnMouseDown"
                                Source="Images/Audi.png" 
                                Stretch="Uniform" 
                                HorizontalAlignment="Left" 
                                VerticalAlignment="Center"/>
                         </Border>
-                        <TextBlock Text="EWK-8995"
+                        <TextBlock Text="..."
                                    Name="carPlateTB"
                                    Foreground="#BED6D9"
                                    FontWeight="Bold"
@@ -480,7 +541,7 @@
                                        Margin="20,10,0,0"
                                        TextAlignment="Left"
                                        FontSize="18"/>
-                        <TextBlock Text="Elapsed Hours:"
+                        <TextBlock Text="Elapsed Time:"
                                        Foreground="#BED6D9"
                                        FontWeight="Normal"
                                        Margin="20,10,0,0"
@@ -494,20 +555,22 @@
                                        FontSize="18"/>
                     </StackPanel>
                     <StackPanel Grid.Column="1" Margin="0,0,12,0">
-                        <TextBlock Text="13:00"
+                        <TextBlock Text="..."
                                    Name="entryTimeTB"
                                    Foreground="#BED6D9"
                                    FontWeight="Normal"
                                    Margin="20,10,0,0"
                                    TextAlignment="Right"
                                    FontSize="18"/>
-                        <TextBlock Text="3h"
+                        <TextBlock Text="..."
+                                   Name="elapsedTimeTB"
                                    Foreground="#BED6D9"
                                    FontWeight="Normal"
                                    Margin="20,10,0,0"
                                    TextAlignment="Right"
                                    FontSize="18"/>
-                        <TextBlock Text="$3"
+                        <TextBlock Text="$..."
+                                   Name="currentCostTB"
                                    Foreground="#BED6D9"
                                    FontWeight="Normal"
                                    Margin="20,10,0,0"
@@ -516,7 +579,9 @@
                     </StackPanel>
                 </Grid>
 
-                <Button Content="Open Receipt"
+                <Button Content="Pay and Leave"
+                        Name="paymentBtn"
+                        Click="PaymentBtn_Click"
                         FontSize="24"
                         FontWeight="Bold"
                         FontFamily="Open Sans"
